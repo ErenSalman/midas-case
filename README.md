@@ -1,6 +1,6 @@
 # MIDAS-CaseApp
 
-This terraform scripts deploy an AWS infrastructure for a web application, including a vpv, subnets, security groups, load balancers, and auto scaling groups (ASGs) for frontend and backend servers. The infrastructure is designed for a high-availability and secure setup with both public and private subnets.
+This terraform scripts deploy an AWS infrastructure for a web application, including a vpc, subnets, security groups, load balancers, and auto scaling groups (ASGs) for frontend and backend servers. The infrastructure is designed for a high-availability and secure setup with both public and private subnets.
 
 ## Configuration
 The terraform scripts includes various configuration variables that you can customize according to your requirements. Key variables include:
