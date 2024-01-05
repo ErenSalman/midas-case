@@ -19,26 +19,6 @@ variable "vpc_cidr" {
   default     = "10.0.0.0/16"
 }
 
-# private subnet vars (ha )
-#----------------------------------------
-# variable "private_subnets" {
-#   default = {
-#     "private-subnet-a" = 0
-#     "private-subnet-b" = 1
-#     "private-subnet-c" = 2
-#   }
-# }
-
-# # public subnet vars
-# #----------------------------------------
-# variable "public_subnets" {
-#   default = {
-#     "public-subnet-a" = 0
-#     "public-subnet-b" = 1
-#     "public-subnet-c" = 2
-#   }
-# }
-
 variable "public_subnet_cidrs" {
  type        = list(string)
  description = "Public Subnet CIDR values"
