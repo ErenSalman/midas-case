@@ -23,8 +23,8 @@ The script creates a VPC with the specified CIDR block ("10.0.0.0/16").
 
 ### Subnets:
 
-- Public subnets: Used for resources that need to be accessible from the internet.
-- Private subnets: Used for backend servers that should not be directly accessible from the internet.
+- Public subnets: Used for resources that need to be accessible from the internet. Used public_subnet_cidrs variable.
+- Private subnets: Used for backend servers that should not be directly accessible from the internet. Used private_subnet_cidrs variable.
 
 ### Security Groups:
 
